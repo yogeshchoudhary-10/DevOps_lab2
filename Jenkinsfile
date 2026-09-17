@@ -40,10 +40,4 @@ pipeline {
  }
  }
  }
- }
- post {
- always {
- archiveArtifacts artifacts: 'artifact.txt, out/**', allowEmptyArchive: false
- }
- }
-}
+ }}
